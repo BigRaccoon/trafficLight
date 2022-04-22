@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-weight:bolder;
+  /*background: url(imgs/back_way.jpg) 50% 50% no-repeat;*/
+  background-image: url(imgs/back_way.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.h1_name {
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+
+.trafficLight{
+  background-color: rgb(20, 20, 20);
+  margin: auto;
+  width: 320px;
+  height: 680px;
+  border-radius: 15px;
+  padding-top: 20px;
+}
+
+.top {
+  width: 200px;
+	height: 200px;
+	background: red;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.middle {
+  width: 200px;
+	height: 200px;
+	background: yellow;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.bottom {
+  width: 200px;
+	height: 200px;
+	background: green;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+
+
+.btn  {
+  width: 150px;
+  height:40px;
+  margin: auto;
+  background-color: rgb(26, 151, 224);
+  border: 2px solid rgb(252, 252, 252);
+  color:azure;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  
+}
+
+.btn:hover {
+  background: #1d49aa;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+
