@@ -28,6 +28,7 @@ body {
   height: 680px;
   border-radius: 15px;
   padding-top: 20px;
+  pointer-events: none;
 }
 
 .top {
@@ -39,6 +40,7 @@ body {
 	border-radius: 100px;
   margin: auto;
   margin-bottom: 25px;
+  
 }
 
 .middle {
@@ -50,6 +52,7 @@ body {
 	border-radius: 100px;
   margin: auto;
   margin-top: 25px;
+  
 }
 
 .bottom {
@@ -61,6 +64,7 @@ body {
 	border-radius: 100px;
   margin: auto;
   margin-top: 25px;
+  
 }
 
 
